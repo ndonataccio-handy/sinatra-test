@@ -4,6 +4,7 @@ gem 'sinatra', require: 'sinatra/base'
 gem 'pg'
 gem 'activerecord', '~>4.2.4'
 gem 'sinatra-activerecord', require: 'sinatra/activerecord'
+gem 'phony'
 
 group :development, :test do
 end
